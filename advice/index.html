@@ -7,7 +7,7 @@ show_in_navigation: true
 navigation_order: 4
 ---
 
-<p class="editable">Get an introduction to some industry topics and stay informed with our in-depth advice articles.</p>
+<p class="editable">Une introduction à quelques thématiques de droit social et pour rester informé de nos futures recherches.</p>
 
 <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Update Advice Posts</a></p>
 
@@ -20,7 +20,7 @@ navigation_order: 4
 {% if paginator.total_pages > 1 %}
 	<div class="pagination">
 		{% if paginator.previous_page %}
-			<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer</a>
+			<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Plus récents</a>
 		{% elsif paginator.next_page %}
 			<span></span>
 		{% endif %}
@@ -28,7 +28,7 @@ navigation_order: 4
 		<span>{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
 		{% if paginator.next_page %}
-			<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older &rarr;</a>
+			<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Plus anciens &rarr;</a>
 		{% elsif paginator.previous_page %}
 			<span></span>
 		{% endif %}

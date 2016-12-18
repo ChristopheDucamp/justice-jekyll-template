@@ -1,8 +1,8 @@
 ---
-name: John Doe
+name: Jean Dupooint
 image: "//placebear.com/440/440?a=.png"
 credentials: LLB
 phone_extension: "11"
 ---
 
-With an interest in employment law, John works tirelessly to improve workplaces.
+Avec une passion pour le droit social, Jean travaille sans relâche pour l’amélioration des lieux de travail.

@@ -60,14 +60,14 @@
 		{% else %}
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="{{ site.baseurl }}/advice/">Read our published advice</a> for an introduction and quick tips on various areas of the law.
+					<a href="{{ site.baseurl }}/advice/">Lisez nos conseils personnalisés</a> pour une introduction et des astuces pratiques sur nos champs d'intervention.
 				</p>
 			</section>
 		{% endif %}
 
 		<footer>
 			<div class="container">
-				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
+				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Mise à jour Sections Pied de Page</a></p>
 
 				<div class="footer-columns">
 					{% for column in site.data.footer %}
@@ -94,17 +94,17 @@
 							<h2>{{ site.data.company.title }}</h2>
 						</li>
 						<li>{{ site.data.company.description }}</li>
-						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
+						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Abonnez-vous avec RSS</a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="legal-line">
 				<p class="container">
-					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }} &bull;
-					<a href="{{ site.baseurl }}/terms/">Terms</a>
+					&copy; {{ site.time | date: '%Y' }} | {{ site.data.company.title }} &bull;
+					<a href="{{ site.baseurl }}/terms/">Mentions légales</a>
 					&bull;
-					Template by <a href="http://cloudcannon.com/">CloudCannon</a>
+					
 				</p>
 			</div>
 		</footer>

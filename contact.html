@@ -12,31 +12,31 @@ map:
 ---
 
 <p class="editable">
-	Come see us in person, give us a call, or send us a message with your details and we'll be in contact shortly after. No obligations and your first meeting is free.
+	Venez-nous voir en personne, appelez-nous ou envoyez-nous un message avec vos coordonnées et nous revenons vers vous rapidement. Aucune obligation et votre premier rendez-vous est gratuit.
 </p>
 
 <div class="columns">
 	<div class="column">
 		<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
 
-		<label>Phone Number</label>
+		<label>Numéro de téléphone</label>
 		<p class="contact-info"><a href="tel:{{ site.data.company.contact_phone_number }}">{{ site.data.company.contact_phone_number }}</a></p>
 
-		<label>Email Address</label>
+		<label>Adresse de courriel</label>
 		<p class="contact-info"><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
 
-		<label>Postal Address</label>
+		<label>Adresse postale</label>
 		<address class="contact-info">{{ site.data.company.postal_address | replace: ',', '<br>' }}</address>
-		<label>Address</label>
+		<label>Adresse</label>
 		<address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address>
 	</div>
 
 	<div class="column">
 		<form method="post" action="/success.html">
-			<label for="email_address">Email Address</label>
+			<label for="email_address">Adresse de courriel</label>
 			<input id="email_address"type="text" name="email">
 
-			<label for="name">Name</label>
+			<label for="name">Nom</label>
 			<input id="name" type="text" name="name">
 
 			<label for="message">Message</label>

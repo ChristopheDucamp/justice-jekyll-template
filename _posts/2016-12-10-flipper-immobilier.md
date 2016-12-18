@@ -1,5 +1,5 @@
 ---
-title: Business Mergers
+title: Les Fusionneurs du Business
 date: 2016-08-10 00:00:00
 categories:
   - Business
@@ -8,9 +8,10 @@ image: "https://unsplash.it/600/450?image=737&a=.png"
 large_header: false
 ---
 
-Mergers and acquisitions are transactions in which the ownership of companies, other business organizations or their operating units are transferred or combined.
+Les fusions et acquisitions sont des opérations dans lesquelles la propriété de sociétés, d'autres organisations commerciales ou de leurs unités opérationnelles est transférée ou combinée.
 
-From a legal point of view, a merger is a legal consolidation of two entities into one entity, whereas an acquisition occurs when one entity takes ownership of another entity's stock, equity interests or assets. From a commercial and economic point of view, both types of transactions generally result in the consolidation of assets and liabilities under one entity, and the distinction between a "merger" and an "acquisition" is less clear. A transaction legally structured as a merger may have the effect of placing one party's business under the indirect ownership of the other party's shareholders, while a transaction legally structured as an acquisition may give each party's shareholders partial ownership and control of the combined enterprise. A deal may be euphemistically called a "merger of equals" if both CEOs agree that joining together is in the best interest of both of their companies, while when the deal is unfriendly (that is, when the management of the target company opposes the deal) it may be regarded as an "acquisition".
+D'un point de vue juridique, une fusion est une consolidation légale de deux entités en une seule entité, alors qu'une acquisition survient lorsqu'une entité prend possession d'actions, de participations ou d'actifs d'une autre entité. D'un point de vue commercial et économique, les deux types de transactions aboutissent généralement à la consolidation d'actifs et de passifs au sein d'une entité, et la distinction entre une «fusion» et une «acquisition» est moins claire. Une opération légalement structurée en tant que fusion peut avoir pour effet de placer l'entreprise d'une partie sous la propriété indirecte des actionnaires de l'autre partie, tandis qu'une transaction légalement structurée comme une acquisition peut conférer aux actionnaires de chaque partie la propriété et le contrôle partiel de l'entreprise combinée. Un accord peut être appelé euphémiquement une «fusion des égaux» si les deux PDG conviennent que se réunir est dans le meilleur intérêt de leurs deux sociétés, tandis que lorsque l'affaire est hostile (c'est-à-dire, lorsque la direction de la société cible s'oppose à l'accord ) Elle peut être considérée comme une «acquisition».
+
 
 ![](https://unsplash.it/960/350?image=617){: width="960" height="350"}
 
