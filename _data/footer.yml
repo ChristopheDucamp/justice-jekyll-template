@@ -17,7 +17,7 @@
       social_icon: Facebook
       new_window: true
     - name: Twitter
-      link:
+      link: https//twitter.com/xtof_fr
       social_icon: Twitter
       new_window: true
     - name: Google+
