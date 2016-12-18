@@ -1,12 +1,13 @@
 ---
 title: Flipper Immobilier
-date: 2016-11-11 00:00:00
+date: 2016-11-11 00:00:00 Z
 categories:
-  - Property
+- Property
 author_staff_member: john-doe
-image: "https://unsplash.it/600/450?image=448&a=.png"
+image: https://unsplash.it/600/450?image=448&a=.png
 large_header: false
 ---
+
 Flipping est un terme utilisé principalement aux États-Unis pour décrire l'achat d'un actif générant des revenus et de le revendre rapidement pour le profit.
 
 Le terme «retournement» est utilisé par les investisseurs immobiliers pour décrire le «réaménagement résidentiel». Le réaménagement de propriétés ou de quartiers en difficulté ou abandonnés a parfois été lié à des actes malveillants et sans scrupules dans l'ère de la bulle post-construction. Le terme «flipper» est fréquemment utilisé à la fois comme un terme descriptif pour les régimes impliquant la manipulation du marché et d'autres comportements illégaux et comme un terme dérogatoire pour les stratégies légales d'investissement immobilier qui sont perçues par certains comme contraire à l'éthique ou socialement destructeur. Au Royaume-Uni, ce terme désigne une technique permettant aux députés de changer de résidence secondaire entre plusieurs maisons, ce qui leur a permis de maximiser leurs allocations financées par les contribuables.

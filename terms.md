@@ -1,7 +1,7 @@
 ---
 title: Conditions Générales de Vente
 cta: Contact
-background_image_path:
+background_image_path: 
 large_header: false
 show_in_navigation: false
 ---

@@ -1,10 +1,10 @@
 ---
 title: Les Fusionneurs du Business
-date: 2016-08-10 00:00:00
+date: 2016-08-10 00:00:00 Z
 categories:
-  - Business
+- Business
 author_staff_member: jane-doe
-image: "https://unsplash.it/600/450?image=737&a=.png"
+image: https://unsplash.it/600/450?image=737&a=.png
 large_header: false
 ---
 
