@@ -1,12 +1,12 @@
 ---
-title: Terms
+title: Conditions Générales de Vente
 cta: Contact
 background_image_path:
 large_header: false
 show_in_navigation: false
 ---
 
-This is usually where the fine print would go, but here's part of the Wikipedia entry on dogs instead:
+C'est l'endroit qu'on imprimera. Du faux texte avec un article sur les chiens extrait de Wikipedia.
 
 ---
 
