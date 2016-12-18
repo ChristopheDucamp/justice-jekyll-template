@@ -7,16 +7,16 @@ show_in_navigation: true
 navigation_order: 1
 ---
 
-<div class="editable"><p>Depuis plus d'un si&egrave;cle, Loi et Justice s'engage &agrave; aider les gens &agrave; travers un certain nombre de services. Nos services s'&eacute;tendent du transfert d'hypoth&egrave;ques jusqu'au droit de la famille. Nos clients vont des grandes entreprises aux premiers acheteurs de biens immobiliers.<br /><br />Rencontrez les membres de notre &eacute;quipe :</p></div>
+<div class="editable"><p>Depuis plus d'un si&egrave;cle, 16ames s'engage &agrave; aider les gens &agrave; travers un certain nombre de services. Nos services s'&eacute;tendent du transfert d'hypoth&egrave;ques jusqu'au droit de la famille. Nos clients vont des grandes entreprises aux premiers acheteurs de biens immobiliers.<br /><br />Rencontrez les membres de notre &eacute;quipe :</p></div>
 
-<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Update Staff Members</a></p>
+<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Mettre à jour les membres du Staff</a></p>
 
 <ul class="staff-list">
 	{% for member in site.staff_members %}
 		<li class="staff">
 			<div class="staff-details">
 				<div class="staff-image">
-					<img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="120" height="120" />
+					<img src="{{ member.image }}" alt="Photo pour {{ member.name }}" width="120" height="120" />
 				</div>
 				<ul class="staff-info">
 					<li>{{ member.name }}</li>
