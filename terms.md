@@ -6,11 +6,11 @@ large_header: false
 show_in_navigation: false
 ---
 
-C'est l'endroit qu'on imprimera. Du faux texte avec un article sur les chiens extrait de Wikipedia.
+C'est l'endroit qu'on imprimera. En attendant,  un article sur les chiens extrait de Wikipedia.
 
 ---
 
-Extrait de wikipedia, the free encyclopedia
+Extrait de wikipedia, l'encyclopédie libre
 
 This article is about the domestic dog. For related species known as "dogs", see Canidae.
 
