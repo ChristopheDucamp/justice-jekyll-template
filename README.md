@@ -1,79 +1,80 @@
 # Justice
 
-Law firm themed business template for Jekyll. Browse through a [live demo](https://grey-grouse.cloudvent.net/).
-Increase the web presence of a law firm or business with this configurable theme.
+Un template Jekyll pour les cabinets d'avocats.
+[live demo](https://grey-grouse.cloudvent.net/) à venir.
+Accroître la présence web d'un cabinet d'avocats avec ce thème paramétrable
 
-![Justice template screenshot](images/_screenshot.png)
+![Modèle Justice](images/_screenshot.png)
 
-Justice was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+Justice a été produit par [CloudCannon](http://cloudcannon.com/), un CMS Cloud pour Jekyll.
+D'autres thèmes peuvent être trouvés sur les [trucs jekyll](http://jekyll.tips/templates/).
 
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
+Pour en savoir plus sur Jekyll, suivez les tutoriels sur [Jekyll Tips](http://jekyll.tips/).
 
-## Features
+## Fonctionnalités
 
-* Contact form
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination
-* Post category pages
-* Disqus comments for posts
-* Staff and author system
-* Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
+* Formulaire de contact
+* Pages pré-construites
+* Composants mis en forme
+* Blog avec pagination
+* Pages Catégories
+* Commentaires Disqus pour les posts
+* Système de publication pour le staff et auteurs
+* Pied de page configurable
+* Optimisation pour la modification dans [CloudCannon](http://cloudcannon.com/)
+* Flux RSS/Atom
+* Tags SEO
 * Google Analytics
 
-## Setup
+## Installation
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+1. Ajoutez votre site et détails de publication dans `_config.yml`.
+2. Ajoutez vos clés Google Analytics et Disqus keys sur `_config.yml`.
+3. Réglez un workflow pour voir la production de votre site (avec [CloudCannon](https://app.cloudcannon.com/) ou en local avec Jekyll).
 
-## Develop
+## Développement
 
-Justice was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+Justice a été construit avec la version 3.3.1 de [Jekyll](http://jekyllrb.com/), mais devrait supporter tout aussi bien les versions plus récentes.
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Installez les dépendances avec [Bundler](http://bundler.io/):
 
 ~~~bash
 $ bundle install
 ~~~
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+Lancez les commande `jekyll` avec Bundler pour vous assurer d'avoir les bonnes versions :
 
 ~~~bash
 $ bundle exec jekyll serve
 ~~~
 
-## Editing
+## Edition
 
-Justice is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+Justice est déjà optimisé pour ajouter, mettre à jour et enlever des pages, staff, conseil, détails sur la société et éléments de pied de page dans le [CloudCannon](https://app.cloudcannon.com/).
 
 ### Posts
 
-* Add, update or remove a post in the *Posts* collection.
+* Ajout, mise à jour ou retrait d'un post dans la collection *Posts*.
 * The **Staff Author** field links to members in the **Staff** collection.
 * Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
 * Change the defaults when new posts are created in `_posts/_defaults.md`.
 
-### Contact Form
+### Formulaire de Contact
 
-* Preconfigured to work with [CloudCannon](https://app.cloudcannon.com/), but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
-* Sends email to the address listed in company details.
+  * Pré-configuré pour fonctionner avec [CloudCannon](https://app.cloudcannon.com/), mais facilement modifiable vers un autre fournisseur (par ex. [FormSpree](https://formspree.io/)).
+* Envoi d'email à l'adresse listée dans les détails de la société.
 
 ### Staff
 
-* Reused around the site to save multiple editing locations.
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+* Réutilisé sur tout le site pour sauvegarder plusieurs endroits sujets à modifications.
+* Ajout `excluded_in_search: true` à tout front matter de documentation de page pour exlure cette page des résultats de recherche.
 
-### Footer
+### Pied de Page
 
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+* Exposé sous forme de fichier de données pour donner aux clients un meilleur accès.
+* Réglé dans la section Data* / *Footer*.
 
-### Company details
+### Détails sur la société
 
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* / *Company* section.
+* Réutilisé sur tout le site pour sauvegarder plusieurs endroits à modifier
+* Réglé dans la section *Data* / *Company*.

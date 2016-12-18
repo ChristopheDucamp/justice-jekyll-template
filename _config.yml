@@ -1,22 +1,22 @@
 # ----
 # Site
 
-title: Justice Template
+title: Modèle Droit
 url: "https://orchid-heron.cloudvent.net"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+# Valeur de la gem jekyll-seo-tag (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
+description: Template Jekyll avec du contenu pour cabinets d'avocats.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Justice Template
+  name: Template Avocats
   links:
     - https://github.com/CloudCannon/justice-jekyll-template
 
