@@ -1,7 +1,7 @@
 ---
-title: Jane Doe
-name: Jeanne La Chatte
+title: Jeanne Dupont
 image: "//placekitten.com/440/440?a=.png"
+name: Jeanne La Chatte
 credentials: LLB
 phone_extension: '02'
 ---
