@@ -6,4 +6,4 @@ phone_extension: '02'
 ---
 
 
-Jane has 19 years of experience in law, and specialises in property and business.
+Jeanne a 19 ans d'expérience en droit et se sépcialise dans le business de la caresse.
