@@ -2,7 +2,7 @@
 # Site
 
 title: Modèle Droit
-url: "https://orchid-heron.cloudvent.net"
+url: "http://maroon-iris1.cloudvent.net/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Valeur de la gem jekyll-seo-tag (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Template Jekyll avec du contenu pour cabinets d'avocats.
+description: Template Jekyll avec du contenu pour un cabinets d'avocats.
 author:
   name:
   email:
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: post
       _comments:
-        image: Shown in social shares and the advice list.
+        image: Présentée dans les partages sociaux et la liste conseil.
 
 permalink: pretty
 
@@ -70,8 +70,8 @@ exclude:
 
 call_to_actions:
   - Contact
-  - Advice
-  - Map
+  - Conseil
+  - Carte
 
 social_icons:
   - Facebook

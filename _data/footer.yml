@@ -2,13 +2,13 @@
   links:
     - name: Home
       link: /
-    - name: About
+    - name: À Propos
       link: /about/
     - name: Services
       link: /services/
     - name: Contact
       link: /contact/
-    - name: Advice
+    - name: Conseil
       link: /advice/
 - title: Social
   links:
