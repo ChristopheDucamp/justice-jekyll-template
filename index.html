@@ -1,31 +1,27 @@
 ---
-title:
+title: Accueil
 call_to_action: Contact
 background_image_path:
 large_header: true
 testimonials:
   - message: We use Justice Law in all our endeavours. They offer an unparalleled service when it comes to running a business.
-    image: "//placekitten.com/60/60?a=.png"
+    image: //placekitten.com/60/60?a=.png
     name: Joice Carmold
-  - message: Justice Law are the best of the best. Being local, they care about people and have strong ties to the community.
-    image: "//fillmurray.com/60/60?a=.png"
+  - message: 'Justice Law are the best of the best. Being local, they care about people and have strong ties to the community.'
+    image: //fillmurray.com/60/60?a=.png
     name: Peter Rottenburg
   - message: Justice Law were everything we could have hoped for when buying our first home. Highly recommended to all.
-    image: "//placebear.com/60/60?a=.png"
+    image: //placebear.com/60/60?a=.png
     name: D. and G. Gibbleston
 ---
 
-<div class="editable">
-	<p>This is the <strong>Justice</strong> template from <a href="http://cloudcannon.com/">CloudCannon</a>. Justice is strong foundation for the web presence of a law firm or business. It's filled with fictitious example content to get you started.</p>
-
-	<p>Justice Law is professional representation. Practicing for over 50 years, our team have the knowledge and skills to get you results.</p>
-</div>
+<div class="editable"><p><strong>Justice</strong> est un gabarit propos&eacute; par <a href="http://cloudcannon.com/">CloudCannon</a> : une premi&egrave;re brique solide pour une pr&eacute;sence web imaginable pour un cabinet d'avocats. Pr&eacute;-remplie avec quelques exemples bidons pour vous aider &agrave; d&eacute;marrer.</p><p>Le cabinet Justice a plus de 50 ans de pratiques et la connaissance pour vous accompagner sur&nbsp;</p><p>&nbsp;</p><p>## Private Equity</p><p>* Op&eacute;rations de haut de bilan ;</p><p>* Op&eacute;rations de lev&eacute;es de fonds et d&rsquo;investissements (capital d&eacute;veloppement et capital risque) ;</p><p>* N&eacute;gociation de la documentation contractuelle (contrats d&rsquo;investissement, pactes d&rsquo;actionnaires garantie d&rsquo;actifs et de passif) ;</p><p>* Op&eacute;rations de LBO, MBO, OBO.</p><p>## Fusions-acquisitions</p><p>* Op&eacute;rations transactionnelles (cessions et acquisitions de titres et d&rsquo;actifs) ;</p><p>* N&eacute;gociation de la documentation juridique (contrat d&rsquo;acquisition, garantie d&rsquo;actifs et de passif) ;</p><p>* R&eacute;alisation d&rsquo;audits juridiques pr&eacute;alables aux op&eacute;rations d&rsquo;acquisition ;</p><p>* Mise en place de toutes s&ucirc;ret&eacute;s li&eacute;es &agrave; ces op&eacute;rations (documentation de cr&eacute;dit, s&eacute;questres, garanties &agrave; premi&egrave;re demande, cautionnements etc.) ;</p><p>* Op&eacute;rations de restructuration (fusions, apports partiels d&rsquo;actifs, apports en nature) ;</p><p>* Cr&eacute;ation de joint ventures.</p><p>## Droit boursier</p><p>* Op&eacute;rations d&rsquo;introduction en bourse ;</p><p>* Op&eacute;rations d&rsquo;&eacute;mission de titres de capital et de valeurs mobili&egrave;res complexes sur les march&eacute;s ;</p><p>* Suivi de la r&eacute;glementation boursi&egrave;re.</p><p>* Droit des soci&eacute;t&eacute;s</p><p>* Cr&eacute;ation de soci&eacute;t&eacute;s et suivi annuel de leur vie sociale ;</p><p>* Op&eacute;rations sur le capital (augmentation de capital, &eacute;mission de valeurs mobili&egrave;res donnant acc&egrave;s au capital social, etc.) ;</p><p>* Mise en place d&rsquo;instruments d&rsquo;int&eacute;ressement des dirigeants et des salari&eacute;s (actions gratuites, stock options et BSPCE) et adaptation de</p><p>** plans de stock options ou de RSU &eacute;trangers ;</p><p>** Support des op&eacute;rations de restructuration.</p></div>
 
 <div class="testimonials">
 	{% for testimonial in page.testimonials %}
 		<blockquote class="testimonial">
 			<p class="testimonial-message">{{ testimonial.message }}</p>
-			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
+			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}" /> {{ testimonial.name }}</p>
 		</blockquote>
 	{% endfor %}
 </div>
