@@ -1,7 +1,8 @@
 # Justice
 
 Un template Jekyll pour les cabinets d'avocats.
-[live demo](https://grey-grouse.cloudvent.net/) à venir.
+[live demo](https://grey-grouse.cloudvent.net/) en français sur http://maroon-iris1.cloudvent.net/
+
 Accroître la présence web d'un cabinet d'avocats avec ce thème paramétrable
 
 ![Modèle Justice](images/_screenshot.png)
@@ -30,7 +31,7 @@ Pour en savoir plus sur Jekyll, suivez les tutoriels sur [Jekyll Tips](http://je
 
 1. Ajoutez votre site et détails de publication dans `_config.yml`.
 2. Ajoutez vos clés Google Analytics et Disqus keys sur `_config.yml`.
-3. Réglez un workflow pour voir la production de votre site (avec [CloudCannon](https://app.cloudcannon.com/) ou en local avec Jekyll).
+3. Réglez un workflow pour voir la production de votre site (avec [CloudCannon](https://app.cloudcannon.com/), SiteLeaf ou en local avec Jekyll).
 
 ## Développement
 
@@ -55,19 +56,19 @@ Justice est déjà optimisé pour ajouter, mettre à jour et enlever des pages, 
 ### Posts
 
 * Ajout, mise à jour ou retrait d'un post dans la collection *Posts*.
-* The **Staff Author** field links to members in the **Staff** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
+* Le champ **Staff Author** fait un lien vers les membres dans la collection **Staff**.
+* Les pages de documentation sont organisées dans la navigation par catégories, avec des URLs basées sur le chemin à l’intérieur du dossier `_docs`.
+* Changez les réglages par défaut quand de nouveaux posts sont créés dans `_posts/_defaults.md`.
 
 ### Formulaire de Contact
 
-  * Pré-configuré pour fonctionner avec [CloudCannon](https://app.cloudcannon.com/), mais facilement modifiable vers un autre fournisseur (par ex. [FormSpree](https://formspree.io/)).
+* Pré-configuré pour fonctionner avec [CloudCannon](https://app.cloudcannon.com/), mais facilement modifiable vers un autre fournisseur (par exemple  [FormSpree](https://formspree.io/)).
 * Envoi d'email à l'adresse listée dans les détails de la société.
 
 ### Staff
 
 * Réutilisé sur tout le site pour sauvegarder plusieurs endroits sujets à modifications.
-* Ajout `excluded_in_search: true` à tout front matter de documentation de page pour exlure cette page des résultats de recherche.
+* Ajout `excluded_in_search: true` à tout front matter de documentation de page pour exclure cette page des résultats de recherche.
 
 ### Pied de Page
 
